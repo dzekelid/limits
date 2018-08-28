@@ -8,11 +8,59 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Limits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/github/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: GitHub - Get Rate Limit
+  x-api-slug: rate-limit-get
+  description: |-
+    Get your current rate limit status
+    Note: Accessing this endpoint does not count against your rate limit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/github/rate-limit-get-openapi.md
+- name: GitHub - Get Rate Limit
+  x-api-slug: rate-limit-get
+  description: |-
+    Get your current rate limit status
+    Note: Accessing this endpoint does not count against your rate limit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/github/rate-limit-get-openapi.md
+- name: GitHub - Get Rate Limit
+  x-api-slug: rate-limit-get
+  description: |-
+    Get your current rate limit status
+    Note: Accessing this endpoint does not count against your rate limit.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/github/rate-limit-get-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Limits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
@@ -298,6 +298,136 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idlimits-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idlimits-xml-get-openapi.md
+- name: 3Scale Account Management API - Limit Update for End User Plans
+  x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-put
+  description: Limit update for end user plans.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-put-openapi.md
+- name: 3Scale Account Management API - Limit Read for End User Plans
+  x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-get
+  description: Limit read for end user plans.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-get-openapi.md
+- name: 3Scale Account Management API - Limit Delete for End User Plans
+  x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-delete
+  description: Limit delete for end user plans.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimitsid-xml-delete-openapi.md
+- name: 3Scale Account Management API - Limit Create for End User Plans
+  x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-post
+  description: Limit create for end user plans.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-post-openapi.md
+- name: 3Scale Account Management API - Limit List for End User Plans
+  x-api-slug: adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-get
+  description: Limit list for end user plans .
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiend-user-plansend-user-plan-idmetricsmetric-idlimits-xml-get-openapi.md
+- name: 3Scale Account Management API - Limit Update
+  x-api-slug: adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-put
+  description: Limit update.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-put-openapi.md
+- name: 3Scale Account Management API - Limit Read
+  x-api-slug: adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-get
+  description: Limit read.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-get-openapi.md
+- name: 3Scale Account Management API - Limit Delete
+  x-api-slug: adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-delete
+  description: Limit delete.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimitsid-xml-delete-openapi.md
+- name: 3Scale Account Management API - Limit Create
+  x-api-slug: adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-post
+  description: Limit create.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-post-openapi.md
+- name: 3Scale Account Management API - Limit List per Metric
+  x-api-slug: adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-get
+  description: Limit list per metric.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/3scale/adminapiapplication-plansapplication-plan-idmetricsmetric-idlimits-xml-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

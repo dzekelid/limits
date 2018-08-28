@@ -7,11 +7,65 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Limits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Meetup - Attendance
+  x-api-slug: urlnameeventsidattendance-get
+  description: Lists attendance records for Meetup events. Limited for use by administrative
+    members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/meetup/urlnameeventsidattendance-get-openapi.md
+- name: Meetup - Attendance Taking
+  x-api-slug: urlnameeventsidattendance-post
+  description: Takes member attendance for an event. Limited for use by administrative
+    members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/meetup/urlnameeventsidattendance-post-openapi.md
+- name: Meetup - Group Topics Add
+  x-api-slug: urlnametopics-post
+  description: Associates topics with a given Meetup group. Limited to organizers
+    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/meetup/urlnametopics-post-openapi.md
+- name: Meetup - Group Topics Remove
+  x-api-slug: urlnametopics-delete
+  description: Disassociates topics with a given Meetup group. Limited to organizers
+    of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+    permission.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/meetup/urlnametopics-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://medium.api.gallery.streamdata.io

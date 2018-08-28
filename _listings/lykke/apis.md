@@ -7,11 +7,261 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Limits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Get API History Limit Trades
+  x-api-slug: apihistorylimittrades-get
+  description: Get api history limit trades.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimittrades-get-openapi.md
+- name: Wallet_Api - Get API History Limit Order
+  x-api-slug: apihistorylimitorder-get
+  description: Get api history limit order.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimitorder-get-openapi.md
+- name: Wallet_Api - Get API History Limit History
+  x-api-slug: apihistorylimithistory-get
+  description: Get api history limit history.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimithistory-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit List
+  x-api-slug: apioffchainlimitlist-get
+  description: Get api offchain limit list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitlist-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit Count
+  x-api-slug: apioffchainlimitcount-get
+  description: Get api offchain limit count.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Trade
+  x-api-slug: apioffchainlimittrade-post
+  description: Add api offchain limit trade.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimittrade-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Cancel
+  x-api-slug: apioffchainlimitcancel-post
+  description: Add api offchain limit cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcancel-post-openapi.md
+- name: Wallet_Api - Add API Hotwallet Limitorder
+  x-api-slug: apihotwalletlimitorder-post
+  description: Add api hotwallet limitorder.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihotwalletlimitorder-post-openapi.md
+- name: Wallet_Api - Get API History Limit Trades
+  x-api-slug: apihistorylimittrades-get
+  description: Get api history limit trades.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimittrades-get-openapi.md
+- name: Wallet_Api - Get API History Limit Order
+  x-api-slug: apihistorylimitorder-get
+  description: Get api history limit order.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimitorder-get-openapi.md
+- name: Wallet_Api - Get API History Limit History
+  x-api-slug: apihistorylimithistory-get
+  description: Get api history limit history.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimithistory-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit List
+  x-api-slug: apioffchainlimitlist-get
+  description: Get api offchain limit list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitlist-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit Count
+  x-api-slug: apioffchainlimitcount-get
+  description: Get api offchain limit count.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Trade
+  x-api-slug: apioffchainlimittrade-post
+  description: Add api offchain limit trade.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimittrade-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Cancel
+  x-api-slug: apioffchainlimitcancel-post
+  description: Add api offchain limit cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcancel-post-openapi.md
+- name: Wallet_Api - Add API Hotwallet Limitorder
+  x-api-slug: apihotwalletlimitorder-post
+  description: Add api hotwallet limitorder.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihotwalletlimitorder-post-openapi.md
+- name: Wallet_Api - Add API Hotwallet Limitorder
+  x-api-slug: apihotwalletlimitorder-post
+  description: Add api hotwallet limitorder.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihotwalletlimitorder-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Cancel
+  x-api-slug: apioffchainlimitcancel-post
+  description: Add api offchain limit cancel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcancel-post-openapi.md
+- name: Wallet_Api - Add API Offchain Limit Trade
+  x-api-slug: apioffchainlimittrade-post
+  description: Add api offchain limit trade.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimittrade-post-openapi.md
+- name: Wallet_Api - Get API Offchain Limit Count
+  x-api-slug: apioffchainlimitcount-get
+  description: Get api offchain limit count.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitcount-get-openapi.md
+- name: Wallet_Api - Get API Offchain Limit List
+  x-api-slug: apioffchainlimitlist-get
+  description: Get api offchain limit list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apioffchainlimitlist-get-openapi.md
+- name: Wallet_Api - Get API History Limit History
+  x-api-slug: apihistorylimithistory-get
+  description: Get api history limit history.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimithistory-get-openapi.md
+- name: Wallet_Api - Get API History Limit Order
+  x-api-slug: apihistorylimitorder-get
+  description: Get api history limit order.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimitorder-get-openapi.md
+- name: Wallet_Api - Get API History Limit Trades
+  x-api-slug: apihistorylimittrades-get
+  description: Get api history limit trades.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihistorylimittrades-get-openapi.md
+- name: Wallet_Api - Add API Hotwallet Limitorder
+  x-api-slug: apihotwalletlimitorder-post
+  description: Add api hotwallet limitorder.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/lykke/apihotwalletlimitorder-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io

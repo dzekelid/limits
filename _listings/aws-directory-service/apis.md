@@ -15,11 +15,59 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Limits
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/aws-directory-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Directory Service API - Get Directory Limits
+  x-api-slug: actiongetdirectorylimits-get
+  description: Obtains directory limit information for the current region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/aws-directory-service/actiongetdirectorylimits-get-openapi.md
+- name: AWS Directory Service API - Get Snapshot Limits
+  x-api-slug: actiongetsnapshotlimits-get
+  description: Obtains the manual snapshot limits for a directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/aws-directory-service/actiongetsnapshotlimits-get-openapi.md
+- name: AWS Directory Service API - Get Directory Limits
+  x-api-slug: actiongetdirectorylimits-get
+  description: Obtains directory limit information for the current region.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/aws-directory-service/actiongetdirectorylimits-get-openapi.md
+- name: AWS Directory Service API - Get Snapshot Limits
+  x-api-slug: actiongetsnapshotlimits-get
+  description: Obtains the manual snapshot limits for a directory.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
+  humanURL: https://aws.amazon.com/directoryservice/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Authentication, Security, Stack Network, API
+    Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/limits/master/_listings/aws-directory-service/actiongetsnapshotlimits-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.direct.connect.api.gallery.streamdata.io
